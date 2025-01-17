@@ -14,7 +14,6 @@ import recipe from './images/recipeapp.png'
 import log from './images/log.png'
 import scheduler from './images/schedulerapp.png'
 import ImageComponent from './ImageComponent'
-import Technologies3DComponent from './Technologies3DComponent'
 import ProjectsComponent from './ProjectsComponent'
 
 import javalogo from './images/logos/javalogo.png'
