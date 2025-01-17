@@ -71,8 +71,11 @@ p {
 
     color: white;
     transform: rotateY(180deg);
-    padding: 15px;
 } 
+
+.flip-card-back p {
+    margin: 15px;
+}
 
 .pcimg {
     position: absolute;
