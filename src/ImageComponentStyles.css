@@ -1,0 +1,25 @@
+/* Initially hide the text and set up the position */
+.htext {
+    position: absolute;
+    left: 30px;
+    margin-right: 30px;
+    color: white;
+    opacity: 0; /* Hidden by default */
+    z-index: 2;
+    transition: opacity 0.3s ease;
+}
+
+/* Style the image */
+.image-container img {
+    display: block;
+    transition: filter 0.3s ease; /* Smooth transition for the black effect */
+}
+
+/* On hover: image turns black and text appears */
+.image-container:hover img {
+    filter: brightness(30%); /* Makes the image appear black */
+}
+
+.image-container:hover .htext {
+    opacity: 1; /* Makes the text visible */
+}
